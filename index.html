@@ -4,48 +4,66 @@
     <meta charset="UTF-8">                                      <!-- defines character encoding-->
     <title>Google</title>
     <link rel="shortcut icon" type="images/png" href="images/favicon.png">
-    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+    <link rel="stylesheet" href="stylesheet.css">
 
 </head>
 <body class="body">
     <main>
-        <header>
-            <nav>
-                <a class="header-links" href="">About</a>
-                <a class="header-links" href="">Store</a>
-    
-                <a class="header-links" href="">Gmail</a>
-                <a class="header-links" href="">Images</a>
-                <button>
-                    <img src="images/apps_black_24dp.svg" alt="">
-                </button>
-                <button>
-                    Sign In
-                </button>
+        <header class="main-header">
+            <nav class="navigation-bar">
+                <div class="left-side-header">
+                    <a class="header-links" href="">About</a>
+                    <a class="header-links" href="">Store</a>
+                </div>
+
+                <div class="right-side-header">
+                    <a class="header-links" href="">Gmail</a>
+                    <a class="header-links" href="">Images</a>
+
+                    <button id="apps-button" class="header-links">
+                        <img src="images/apps_black_24dp.svg" alt="">
+                    </button>
+                    <button id="signin-button" class="header-links">
+                        Sign In
+                    </button>
+                </div>
             </nav>
         </header>
 
-        <section>
-            <img src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
-
-            <form>
-                <input type="text">
-                <button> Google Search</button>
-                <button>I'm Feeling Lucky</button>
-            </form>
+        <section class="google-image-section">
+            <div class="google-image">
+                <img src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
         </section>
 
-        <footer>
-            <div>
-                <h3>Canada</h3>
+        <section class="search-section">
+            <form class="search-form">
+                <img class="magnifying-glass" 
+                src="images/outline_search_black_24dp.png">
+                <input class="search-bar" type="text">
+            </form>
+            <div class="search-links">
+                <button class="buttons"> Google Search</button>
+                <button class="buttons">I'm Feeling Lucky</button>
             </div>
-            <nav>
-                <a href="">Advertising</a>
-                <a href="">Business</a>
-                <a href=""> How Search Works</a>
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Settings</a>
+        </section>
+
+        <div id="empty-box">
+        </div>
+
+        <footer class="footer">
+            <div id="location">Canada</div>
+            <nav class="footer-nav">
+                <div class="left-side-footer">
+                    <a class="footer-links" href="">Advertising</a>
+                    <a class="footer-links" href="">Business</a>
+                    <a class="footer-links" href="">How Search Works</a>
+                </div>
+                <div class="right-side-footer">
+                    <a class="footer-links" href="">Privacy</a>
+                    <a class="footer-links" href="">Terms</a>
+                    <a class="footer-links" href="">Settings</a>
+                </div>
             </nav>
 
         </footer>

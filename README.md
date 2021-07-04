@@ -24,3 +24,9 @@ Ongoing
 #### This is very useful to me because it lays out the fundamentals as well as creates a step-by-step procedure that is easily followed.
 
 
+### July 4, 2021
+
+#### I have finished replicating the google homepage! I FEEL ACCOMPLISHED! It made me realize how much things are going on just to produce a simple webpage like google search page as I have initially perceived. 
+
+#### There were a lot of trial and error that I had to go through just to make things work BUT it was definitely worth it. I did use the inspect tool A LOT and it made me realize how truly useful and important the tool was. 
+
